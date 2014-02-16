@@ -1,0 +1,67 @@
+theme
+	name colorZdark
+	author Nickzers <https://github.com/nickzers>
+
+panel
+	position bottom
+	background bg.png
+	transparent
+launchbar
+	icon_size 22 22
+taskbar
+	idle
+		left b-bg.png
+		center bg.png
+		right b-bg.png
+		font Droid Sans 7
+			color 255 255 255
+			align left
+			offset 5 0
+	idle_highlight
+		left b-bg-hover.png
+		center bg-hover.png
+		right b-bg-hover.png
+		font Droid Sans 7
+			color 255 255 255
+			align left
+			offset 5 0
+	pressed
+		left b-bg-press.png
+		center b-bg-press.png
+		right b-bg-press.png
+		font Droid Sans 7
+			color 255 255 255
+			align left
+			offset 5 0
+
+	pressed_highlight
+		left b-bg-hover.png
+		center bg-hover.png
+		right b-bg-hover.png
+		font Droid Sans 7
+			color 255 255 255
+			align left
+			offset 5 0
+	task_max_width 150
+	default_icon default_icon.png
+systray
+	background
+		left btray.png
+		center btray.png
+		right btray.png
+	font Droid Sans 7
+	icon_size 21 21
+		offset 1 0
+empty 10
+
+clock
+	background
+		left bclock.png
+		center bclock.png
+		right bclock.png
+	font Droid Sans 7
+		color 255 255 255
+		offset 0 1
+		align center
+	time_format %a %d %b %Y %I:%M %p
+#empty 10
