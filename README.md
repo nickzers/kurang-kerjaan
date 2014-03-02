@@ -1,4 +1,4 @@
-kurang-kerjaanXXX
+Xkurang-kerjaan
 ==============
 
 <blockquote>
